@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'machine2' }
     stages {
         stage('---clean---') {
             steps {
